@@ -1,5 +1,36 @@
 # AI Red-Teaming Lab
 
+## Quick Overview
+
+This repository demonstrates a structured **AI red-teaming framework** used to identify vulnerabilities in large language models and AI agents.
+
+Key components include:
+
+- A **threat model** defining attackers, assets, and attack surfaces
+- A **failure taxonomy** for classifying model weaknesses
+- **Adversarial attack scenarios** (prompt injection, RAG poisoning, agent tool misuse)
+- A **human-driven evaluation framework** with standardized outcome signals
+- A **dataset of adversarial prompts** for reproducible testing
+
+The project simulates how AI safety teams perform adversarial testing to uncover vulnerabilities that automated evaluations often miss.
+
+## Key Files
+
+Threat Model  
+taxonomy/threat-model.md
+
+Failure Taxonomy  
+taxonomy/failure-classes.md
+
+Attack Scenarios  
+attacks/attack-index.md
+
+Evaluation Framework  
+evaluations/evaluation-methodology.md
+
+Adversarial Dataset  
+datasets/redteam-prompts.jsonl
+
 ## Objective
 This repository demonstrates structured adversarial testing of large language models (LLMs) and AI agents to identify failure modes that automated evaluation pipelines often miss.
 
